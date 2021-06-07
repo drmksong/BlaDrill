@@ -95,4 +95,20 @@ System.register("MkPoint", [], function (exports_5, context_5) {
         }
     };
 });
+System.register("MkTest", ["MkPoint"], function (exports_6, context_6) {
+    "use strict";
+    var mkpoint_1, pnt;
+    var __moduleName = context_6 && context_6.id;
+    return {
+        setters: [
+            function (mkpoint_1_1) {
+                mkpoint_1 = mkpoint_1_1;
+            }
+        ],
+        execute: function () {
+            pnt = new mkpoint_1.MkPoint(0, 0, 0);
+            console.log(pnt);
+        }
+    };
+});
 //# sourceMappingURL=mklib.js.map
