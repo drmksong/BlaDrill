@@ -1,3 +1,4 @@
+// const mklib = require('./built/mklib.js');
 // Canvas
 const canvas = document.querySelector('canvas.webgl')
 
