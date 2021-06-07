@@ -5,6 +5,7 @@ export class MkPoint implements MkShape {
   X : number;
   Y : number;
   Z : number;
+  
   constructor ( x : number, y : number, z : number) {
     this.X = x;
     this.Y = y;
