@@ -1,7 +1,7 @@
-
+import  mklib from './built/mklib';
 // Canvas
 const canvas = document.querySelector('canvas.webgl')
-System.import('./built/mklib.js');
+// System.import('./built/mklib.js');
 
 // Sizes
 const sizes = {
@@ -9,7 +9,7 @@ const sizes = {
     height: 600
 }
 
-const shape = MkLine;
+const shape = mklib.MkLine();
 
 // Scene
 const scene = new THREE.Scene()
